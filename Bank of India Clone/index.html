@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+
+
+</head>
+
+<body>
+    <div class="navbar-1" id="nav-1">
+        <a href="https://bankofindia.co.in/about-us" class="nav-a">About Us</a>
+        <li>|</li>
+        <a href="https://boiweb.bankofindia.co.in/" class="nav-a">BOI Online </a>
+        <li>|</li>
+        <a href="https://bankofindia.co.in/investor-corner" class="nav-a">Investor Corner </a>
+        <li>|</li>
+        <a href="https://bankofindia.co.in/forexcard-rate" class="nav-a">Forex Card Rate </a>
+        <li>|</li>
+        <li> <i class="fa fa-phone" aria-hidden="true"> 1800 103 1906</i> </li>
+        <li>|</li>
+        <li onclick="zoomIn()" class="zoom">A+</li>
+        <li onclick="zoomOut()" class="zoom">A- </li>
+        <li>|</li>
+        <li> English </li>
+        <li>|</li>
+        <li> India </li>
+        <li>|</li>
+        <li> <a href="https://bankofindia.co.in/customer-care#locateUsSection" id="location"><i class="fa fa-map-marker"
+                    aria-hidden="true"></i></a></li>
+        <li>|</li>
+        <li id="gift"> <img src="./images/giftt.gif" id="gift" alt=""></li>
+    </div>
+
+    <div class="navbar-2" id="nav-2">
+        <div class="logo">
+            <img src="./images/boi_logo.png" alt="Bank of India Logo" class="logo-img">
+        </div>
+
+        <ul class="navbar-2-a">
+            <li class="li-n-2a"><i class="fa fa-home" aria-hidden="true"></i> PERSONAL</li>
+            <li class="li-n-2a">BUSINESS</li>
+            <li class="li-n-2a">INVEST & INSURE</li>
+            <li class="li-n-2a">NRI</li>
+            <li class="li-n-2a">AGRI</li>
+        </ul>
+
+        <div class="navbar-2-b">
+            <li class="li-n-2b"><i class=" fa fa-search " aria-hidden="true"></i></li>
+            <li class="li-n-2b "><img src="./images/digital_products.png" class="img-dp" alt="Digital Products"
+                    height="20px"></li>
+            <button class="nav-btn">Internet Banking <i class="fa-ib fa fa-arrow-down fa-n-2b"
+                    aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+    <marquee behavior="scroll" direction="Left" class="marquee-tag">
+        Retail Internet Banking will be available under Mobile Banking App with many new and enhanced features. Please
+        update your valid email id for seamless experience. | Dear BOI Customer, In case, If you are not receiving
+        Sovereign Gold Bond (SGB) half yearly interest on scheduled dates, please contact your branch to update your
+        interest credit account details immediately.
+    </marquee>
+
+    <div class="container-1">
+        <div class="auction-info">
+            <h3>Bank of India</h3>
+            <h1>MEGA E-AUCTION</h1>
+            <p>Bank of India invites you to participate in Mega e-Auction scheduled on 25.09.2024 for buying
+                Residential/Commercial/Industrial properties at attractive price.</p>
+            <button class="learn-more-btn1" onclick="window.location.href='https://bankofindia.co.in/documents/20121/23207438/Mega-E-Auction.pdf';" >
+                <span>&#8594;</span> Learn More
+            </button>
+        </div>
+        <div class="container">
+            <!-- Background image section -->
+            <div class="background">
+                <img src="./images/mega-auction.png" class="img-ma" alt="Background Image">
+
+                <!-- Links overlay with three columns -->
+                <div class="links-overlay">
+                    <div class="link-column">
+                        <h4>Accounts</h4>
+                        <ul>
+                            <li><a href="https://bankofindia.co.in/savings-account">Savings Account</a></li>
+                            <li><a href="https://bankofindia.co.in/current-account">Current Account</a></li>
+                            <li><a href="https://bankofindia.co.in/salary-account">Salary Account</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Loans</h4>
+                        <ul>
+                            <li><a href="https://bankofindia.co.in/home-loan">Home Loan</a></li>
+                            <li><a href="https://bankofindia.co.in/personal-loan">Personal Loan</a></li>
+                            <li><a href="https://bankofindia.co.in/vehicle-loan1">Vehicle Loan</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Insurance</h4>
+                        <ul>
+                            <li><a href="https://bankofindia.co.in/life-insurance">Life Insurance</a></li>
+                            <li><a href="https://bankofindia.co.in/health-insurance">Health Insurance</a></li>
+                            <li><a href="https://bankofindia.co.in/general-insurance">General Insurance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="carousel-nav">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div> -->
+
+    <div class="side-icons">
+        <!-- <div class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></div> -->
+        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="21.63" height="24" viewBox="0 0 21.63 24">
+                <path id="share_FILL0_wght400_GRAD0_opsz48"
+                    d="M24.21,28a3.431,3.431,0,0,1-3.42-3.42,3.233,3.233,0,0,1,.045-.495,2.686,2.686,0,0,1,.135-.525l-9.09-5.28a3.428,3.428,0,0,1-1.11.825,3.1,3.1,0,0,1-1.35.315A3.431,3.431,0,0,1,6,16a3.279,3.279,0,0,1,1.005-2.43,3.414,3.414,0,0,1,3.735-.72,3.621,3.621,0,0,1,1.14.78l9.09-5.22a2.09,2.09,0,0,1-.135-.48,3.108,3.108,0,0,1-.045-.51,3.279,3.279,0,0,1,1-2.43A3.413,3.413,0,0,1,27.63,7.42a3.318,3.318,0,0,1-.99,2.415,3.279,3.279,0,0,1-2.43,1,4.024,4.024,0,0,1-1.335-.225A2.562,2.562,0,0,1,21.78,9.88l-9.09,5.04a5.544,5.544,0,0,1,.1.555A3.834,3.834,0,0,1,12.84,16a2.449,2.449,0,0,1-.045.45q-.045.24-.1.48l9.09,5.16a3.569,3.569,0,0,1,1.05-.675,3.5,3.5,0,0,1,1.38-.255A3.426,3.426,0,0,1,26.64,27,3.279,3.279,0,0,1,24.21,28Zm0-18.96a1.589,1.589,0,0,0,1.62-1.62,1.62,1.62,0,1,0-3.24,0,1.589,1.589,0,0,0,1.62,1.62ZM9.42,17.62a1.589,1.589,0,1,0-1.155-.465A1.568,1.568,0,0,0,9.42,17.62ZM24.21,26.2a1.589,1.589,0,1,0-1.155-.465A1.568,1.568,0,0,0,24.21,26.2Zm0-18.78ZM9.42,16Zm14.79,8.58Z"
+                    transform="translate(-6 -4)" fill="#fff" />
+            </svg>
+        </div>
+        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="25.456" height="25.456"
+                viewBox="0 0 25.456 25.456">
+                <path id="link_FILL0_wght400_GRAD0_opsz48"
+                    d="M11.1,0H6A5.893,5.893,0,0,0,0,6a5.893,5.893,0,0,0,6,6h5.1V10.2H6A4.1,4.1,0,0,1,1.8,6,4.1,4.1,0,0,1,6,1.8h5.1ZM7.35,5.1V6.9h9.3V5.1ZM12.9,0V1.8H18A4.1,4.1,0,0,1,22.2,6,4.1,4.1,0,0,1,18,10.2H12.9V12H18a5.893,5.893,0,0,0,6-6,5.893,5.893,0,0,0-6-6Z"
+                    transform="translate(25.456 8.485) rotate(135)" fill="#fff" />
+            </svg>
+        </div>
+        <!-- <div class="icon">&#128279;</div> Link Icon -->
+        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="21.238" height="21.96"
+                viewBox="0 0 21.238 21.96">
+                <g id="SafeBankingIcon2" transform="translate(-49.279 -120.984)">
+                    <g id="Group_120807" data-name="Group 120807" transform="translate(50.029 121.734)">
+                        <path id="Path_16366" data-name="Path 16366"
+                            d="M9.579,13.719l2.467,2.467,4.112-5.757m-3.29-7.715a13.114,13.114,0,0,1-9.213,3.6,13.173,13.173,0,0,0,9.213,16.856A13.174,13.174,0,0,0,22.083,6.316h-.167A13.109,13.109,0,0,1,12.869,2.714Z"
+                            transform="translate(-3 -2.714)" fill="none" stroke="#fff" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" />
+                    </g>
+                </g>
+            </svg></div>
+        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="19.037" height="24" viewBox="0 0 19.037 24">
+                <path id="hand-thumbs-up"
+                    d="M12.479.07A2.374,2.374,0,0,0,9.566,2.238a17.127,17.127,0,0,1-.653,3.954,8.3,8.3,0,0,1-1.588,2.5,6.959,6.959,0,0,1-3.253,2.153A2.668,2.668,0,0,0,2,13.313v6.108A2.419,2.419,0,0,0,4.211,21.78a6.543,6.543,0,0,1,3.157,1.1l.073.046a7.511,7.511,0,0,0,1.481.739A6.762,6.762,0,0,0,11.16,24H16.5a3.294,3.294,0,0,0,2.953-1.624,2.84,2.84,0,0,0,.388-1.392,2.128,2.128,0,0,0-.118-.708,4.873,4.873,0,0,0,.745-1.376,2.492,2.492,0,0,0,.006-1.754,3.26,3.26,0,0,0,.243-.615,5.042,5.042,0,0,0,0-2.615,3.273,3.273,0,0,0-.211-.553,2.9,2.9,0,0,0,.357-2.647,3.164,3.164,0,0,0-1.832-1.942,9.77,9.77,0,0,0-3.841-.322q-.339.03-.676.076a14.3,14.3,0,0,0-.095-6.884A2.107,2.107,0,0,0,12.878.17Zm4.024,22.4H11.16a5.239,5.239,0,0,1-1.74-.25,5.883,5.883,0,0,1-1.185-.6l-.061-.037a8.036,8.036,0,0,0-3.8-1.325.9.9,0,0,1-.846-.84v-6.11a1.157,1.157,0,0,1,.947-.992A8.492,8.492,0,0,0,8.464,9.713a9.767,9.767,0,0,0,1.89-3.02,18.454,18.454,0,0,0,.736-4.351.847.847,0,0,1,1.018-.791l.4.1a.573.573,0,0,1,.44.389,12.733,12.733,0,0,1-.221,7.214.763.763,0,0,0,.908.983l0,0,.021,0,.089-.021a13.6,13.6,0,0,1,1.582-.24,8.28,8.28,0,0,1,3.221.25,1.655,1.655,0,0,1,.87.992,1.418,1.418,0,0,1-.406,1.56l-.539.539.539.54a1.137,1.137,0,0,1,.235.481,3.5,3.5,0,0,1,0,1.776,1.156,1.156,0,0,1-.235.481l-.539.539.539.54c.072.072.166.27.008.745a3.4,3.4,0,0,1-.771,1.229l-.539.539.539.54a.383.383,0,0,1,.063.26,1.322,1.322,0,0,1-.185.635,1.776,1.776,0,0,1-1.627.855Z"
+                    transform="translate(-2 0)" fill="#fff" />
+            </svg>
+        </div>
+        <div class="icon-1">
+            <img src="./images/BOISEVASVG.svg" height="50px" width="50px" style="margin-top: 20px;" alt="">
+        </div>
+        <!-- <div class="icon">&#128274;</div> Shield Icon -->
+        <!-- <div class="icon">&#128077;</div>  Thumbs Up Icon -->
+        <!-- <div class="icon">&#128257;</div> Social Share Icon -->
+    </div>
+
+    </div>
+
+
+    <section class="popular-products">
+        <h3>OUR </h3>
+        <h2> <span>POPULA</span>R PRODUCTS</h2>
+    </section>
+    <section class="product-card-container">
+        <!-- Star Home Loan -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="./images/star-home-loan.png" alt="Star Home Loan">
+            </div>
+            <div class="product-details">
+                <h3>STAR HOME LOAN</h3>
+                <p><strong>ROI 8.40% p.a. onwards</strong></p>
+                <p>Provides loans to purchase a Plot for construction of a House, ...</p>
+                <button class="learn-more-btn" onclick="window.location.href='https://bankofindia.co.in/home-loan/star-home-loan'" ><span>→</span> Learn More</button>
+            </div>
+        </div>
+
+        <!-- Star Asset Backed Loan -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="./images/star-asset-backed-loan.png" alt="Star Asset Backed Loan">
+            </div>
+            <div class="product-details">
+                <h3>STAR ASSET BACKED LOAN</h3>
+                <p><strong>25% in NFB Commissions</strong></p>
+                <p>To provide working capital for building up current assets.</p>
+                <button class="learn-more-btn" onclick="window.location.href='https://bankofindia.co.in/financing-existing-business/star-asset-backed-loan'" ><span>→</span> Learn More</button>
+            </div>
+        </div>
+
+        <!-- Gold Loan -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="./images/gold-loan.png" alt="Gold Loan">
+            </div>
+            <div class="product-details">
+                <h3>GOLD LOAN</h3>
+                <p><strong>At attractive rate of Interest</strong></p>
+                <p>Gold Loan is the most convenient and easy way to fulfill all your credit needs.</p>
+                <button  class="learn-more-btn"  onclick="window.location.href='https://bankofindia.co.in/financing-existing-business/star-asset-backed-loan'" ><span>→</span> Learn More</button>
+            </div>
+        </div>
+
+        <!-- Government Salary Account -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="./images/gold-loan.png" alt="Government Salary Account">
+            </div>
+            <div class="product-details">
+                <h3>GOVERNMENT SALARY ACCOUNT</h3>
+                <p><strong>For all government sector employees</strong></p>
+                <p>Start building a secure and prosperous future with a banking solution designed...</p>
+                <button class="learn-more-btn" onclick="window.location.href='https://bankofindia.co.in/salary-account/star-salary-plus-account-for-public-sector'" ><span>→</span> Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers-section">
+        <div class="offers-text">
+            <h3>OUR </h3>
+            <h2> <span>POPULA</span>R OFFERS</h2>
+            <h3>RUPAY SELECT CREDIT CARD</h3>
+            <p>Get ready to immerse yourself in a world full of rewards.</p>
+
+            <p class="offet-text-para"><strong>Apply Now</strong> <a href="https://staraks.bankofindia.co.in/digitalbanking/credit-card/choose-loan">Click Here</a></p>
+
+            <p class="offet-text-para">For more details:</p>
+            <ul>
+                <li class="offet-text-para">RuPay Select Offers: <a href="https://www.rupay.co.in/select-booking">Click Here</a></li>
+                <li class="offet-text-para">Participating Airport Lounges: <a href="https://www.rupay.co.in/lounges">Click Here</a></li>
+            </ul>
+        </div>
+
+        <div class="offers-image">
+            <img src="./images/offercreative.png" alt="RuPay Select Credit Card Offer">
+        </div>
+    </section>
+
+    <section class="interest-rate-section">
+        <div class="image-section">
+            <img src="./images/InterestRate.png" alt="Interest Rate Calculator">
+        </div>
+        <div>
+            <div class="text-section-h2">
+                <h4>OUR</h4>
+                <h2> <span> NEW IN</span>TEREST RATE</h2>
+            </div>
+
+
+            <div class="loan-info text-section">
+                <h3>HOME LOAN</h3>
+                <p><strong>Interest Rate</strong></p>
+                <h1>8.40%</h1>
+                <p>p.a. onwards</p>
+                <p>The loan is available at very competitive rates of interest, currently available in the industry.</p>
+
+                <a href="https://bankofindia.co.in/home-loan/star-home-loan" class="button">Calculate Interest Rate</a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="news-caution-section">
+        <div class="connected-box">
+            <div class="news-box">
+                <div class="box-header bh-col-1">
+                    <h2>Latest News</h2>
+                    <a href="#" class="view-all">View All &#9654;</a>
+                </div>
+                <div class="news-content">
+                    <div class="news-item">
+                        <img src="./images/Announcement.png" alt="icon" class="icon">
+                        <p>List of Willful Defaulters of our Bank as on 30.06.2024</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                    <div class="news-item">
+                        <img src="./images/Announcement.png" alt="icon" class="icon">
+                        <p>Information on secured assets possessed under SARFAESI Act, 2002 as on 30.06.2024</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                    <div class="news-item">
+                        <img src="./images/Announcement.png" alt="icon" class="icon">
+                        <p>Dear customer
+                            In our constant endeavour to provide superior customer service, we have already launched new
+                            BOI Mobile Omni Neo Bank App with many new customer journeys. To experience the convenience
+                            of digital banking kindly download the app from the Play Store/iOS App store. The old mobile
+                            app has since been discontinued and you may download the new app for continued services.</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                    <!-- Additional items for scrollable content -->
+                    <div class="news-item">
+                        <img src="./images/Announcement.png" alt="icon" class="icon">
+                        <p>Sunset of Loyalty Rewards in old BOI Mobile App</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                    <div class="news-item">
+                        <img src="./images/Announcement.png" alt="icon" class="icon">
+                        <p>We are happy to inform that our NRI Help Center is fully functional now. All our customer and
+                            Branch officers may call and correspond for any query related to NRI services at tele number
+                            +91 7969241100 or over email ID FEBO.NRI@bankofindia.co.in</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                    <div class="news-item">
+                        <img src="./images/award.png" alt="icon" class="icon">
+                        <p>Awards & Accolades</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                    <div class="news-item">
+                        <img src="./images/news-thumb.png" alt="icon" class="icon">
+                        <p>Capping on accrual of Loyalty Reward Points
+                            Restrictions on MasterCard fresh Issuance for Debit/Credit and Prepaid Card</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                    <div class="news-item">
+                        <img src="./images/news-thumb-2.png" alt="icon" class="icon">
+                        <p>Notice for Termination of BOI Billpay Application for payment of utility bills</p>
+                        <span class="new-badge">NEW</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caution-box">
+                <div class="box-header bh-col-2">
+                    <h2>Caution!</h2>
+                    <a href="#" class="view-all">View All &#9654;</a>
+                </div>
+                <div class="caution-content">
+                    <div class="caution-item">
+                        <p>Beware of FAKE MUDRA/PMMY websites</p>
+                    </div>
+                    <div class="caution-item">
+                        <p>Fake Illegal Loan Apps</p>
+                    </div>
+                    <div class="caution-item">
+                        <p>SOVA Android Trojan Targets Banks</p>
+                    </div>
+                    <div class="caution-item">
+                        <p>Beware of Fake SMSes and Fake Phone Calls</p>
+                    </div>
+                    <div class="caution-item">
+                        <p>Fake addresses and phone numbers created by miscreants on Google search.</p>
+                    </div>
+                    <!-- Additional caution items for scrollable content -->
+                    <div class="caution-item">
+                        <p>Please do not search for any branch address on google search or map.</p>
+                    </div>
+                    <div class="caution-item">
+                        <p>Use Bank's own website only for any contact details
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="testimonials-section">
+            <h3>OUR</h3>
+            <h2><span class="highlight">TESTIMO</span>NIAL</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <img src="./images/Le De Chan Lamo.png" alt="Person 1">
+                    <div class="testimonial-text">
+                        <p><span class="quote">“</span> During Covid pandemic when my business collapsed, Bank of India
+                            helped me to re-establish my boutique business by taking loan under Pradhan Mantri Mudra
+                            Yojana.”<span class="quote"></span></p>
+                        <h4>Leh's Dechen Lamo</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/Rahul Mishra.png" alt="Person 2">
+                    <div class="testimonial-text">
+                        <p><span class="quote">“</span>Under the Pradhan Mantri Mudra Yojana, I obtained a loan from the
+                            Bank of India branch in Aminabad. With this loan, I successfully opened a tile marble
+                            outlet.”<span class="quote"></span></p>
+                        <h4>Rahul Mishra</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/JhumkaDevi.png" alt="Person 3">
+                    <div class="testimonial-text">
+                        <p><span class="quote">“</span>Bank of India’s Ashokenagar branch verified our necessary
+                            documents and helped us avail the loan to build our home under the Pradhan Mantri Awas
+                            Yojana.”<span class="quote"></span></p>
+                        <h4>Mrs. Jhuma Devi</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="carousel">
+        <img src="./images/StaySmartStay1.png" class="active" alt="Image 1">
+        <img src="./images/Akira2.png" alt="Image 3">
+        <img src="./images/CloningofBiometrics3.png" alt="Image 4">
+        <img src="./images/CypherratAndroidMalware4.png" alt="Image 2">
+        <img src="./images/BewareofOnlineJobScams.png" alt="Image 5">
+        <img src="./images/Nationwide_AwarenessBanner6.png" alt="Image 6">
+        <img src="./images/Nationwide_awareness_poster7.png" alt="Image 7">
+    </div>
+
+    <div class="dots">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    </section>
+
+
+
+    <section class="products">
+        <!-- Popular Products Section -->
+
+        <div class="contact-wrapper">
+            <div class="contact-details">
+                <h3>Contact Us</h3>
+                <h4>For Domestic(India) Contact:</h4>
+                <p>1800 103 1906 (toll free)</p>
+                <p>1800 220 229 (toll free - COVID Support)</p>
+                <p>(022) - 40919191 (Chargeable number) 24X7</p>
+
+                <h4>For NRI Contact:</h4>
+                <p>Helpline Number: +91 7969241100</p>
+                <p>Email: FEBO.NRI@Bankofindia.Co.In</p>
+                <p><a href="#">Submit your Grievances Click Here</a></p>
+                <p><a href="#">For Overseas Contact Click Here</a></p>
+
+                <div class="social-media-icons">
+                    <a href="#"><img src="./images/whatsapp-icon.svg" alt="WhatsApp"></a>
+                    <a href="#"><img src="./images/facebook-icon.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./images/Instagram-icon.svg" alt="Instagram"></a>
+                    <a href="#"><img src="./images/twitter-icon.svg" alt="Twitter"></a>
+                    <a href="#"><img src="./images/Youtube-icon.svg" alt="YouTube"></a>
+                    <a href="#"><img src="./images/LinkedIn-icon.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="quick-links-section">
+                <h3>Quick Access</h3>
+                <ul>
+                    <li><a href="#">Interest Rate</a></li>
+                    <li><a href="#">Service Charge</a></li>
+                    <li><a href="#">Policies & Guidelines</a></li>
+                    <li><a href="#">Doorstep banking</a></li>
+                    <li><a href="#">Smart Banking</a></li>
+                    <li><a href="#">Safe Banking</a></li>
+                    <li><a href="#">BCSBI</a></li>
+                    <li><a href="#">IBBI panel of Insolvency Professionals for Jul 1, 2024 to Dec 31, 2024</a></li>
+                    <li><a href="#">4th National Online Quiz on Insolvency and Bankruptcy Code, 2016</a></li>
+                </ul>
+            </div>
+            <div class="internal-links-section">
+                <h3>Internal Engagements</h3>
+                <ul>
+                    <li><a href="#">Media Center</a></li>
+                    <li><a href="#">Regional Rural Banks</a></li>
+                    <li><a href="#">Treasury</a></li>
+                    <li><a href="#">Training Centres</a></li>
+                    <li><a href="#">Auditors Of The Bank</a></li>
+                    <li><a href="#">CVC link for integrity pledge</a></li>
+                    <li><a href="#">Syndicate Asba</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <button id="toggleButton" onclick="toggleLinks()">Show More</button> -->
+    </section>
+
+
+    <img src="./images/popular.png" class="footer-image" alt="">
+    <section class="footer">
+
+        <div class="column useful-links">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="#">Communication to BSE/NSE</a></li>
+                <li><a href="#">ESG Corner</a></li>
+                <li><a href="#">Notice For Customers</a></li>
+                <li><a href="#">AML/KYC</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Customer Care</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">RBI Kehta Hai</a></li>
+                <li><a href="#">Information on RBI Monetary</a></li>
+                <li><a href="#">US Patriot Act</a></li>
+                <li><a href="#">Calculator</a></li>
+                <li><a href="#">Complaint for Failed Digital Transactions</a></li>
+                <li><a href="#">Safe Custody Services</a></li>
+                <li><a href="#">RTI Act</a></li>
+                <li><a href="#">Verify CheckSum Value</a></li>
+                <li><a href="#">Vigilance Overtone Complaints</a></li>
+                <li><a href="#">Govt. of India - Cyber Fraud Reporting Portal</a></li>
+            </ul>
+        </div>
+
+        <div class="column important-links">
+            <h3>Important Links</h3>
+            <ul>
+                <li><a href="#">Tender</a></li>
+                <li><a href="#">Death Claim Portal</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Regulatory Disclosure Section</a></li>
+                <li><a href="#">Screen Reader Accessibility</a></li>
+                <li><a href="#">National Portal</a></li>
+                <li><a href="#">Positive Pay System</a></li>
+                <li><a href="#">Account Aggregator</a></li>
+                <li><a href="#">Inoperative/Unclaimed Account</a></li>
+                <li><a href="#">UDGAM Portal</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">IBA Auction Property Information</a></li>
+                <li><a href="#">Our Health Care Product</a></li>
+                <li><a href="#">ASBA</a></li>
+                <li><a href="#">Internet Banking Demo</a></li>
+                <li><a href="#">Rajbhasha</a></li>
+            </ul>
+        </div>
+
+        <div class="column other-links">
+            <h3>Other Links</h3>
+            <ul>
+                <li><a href="#">Application for Empanelment of Valuers</a></li>
+                <li><a href="#">Application for Empanelment of Lenders' Independent Engineer (LIE)</a></li>
+                <li><a href="#">Independent External Monitor (IEM)</a></li>
+                <li><a href="#">RSETIs</a></li>
+                <li><a href="#">CSR</a></li>
+                <li><a href="#">Citizens' Duties-Constitution of India</a></li>
+                <li><a href="#">eShakti</a></li>
+                <li><a href="#">PMRY</a></li>
+                <li><a href="#">Staff Portal</a></li>
+                <li><a href="#">Star Share Trade</a></li>
+                <li><a href="#">Depository</a></li>
+                <li><a href="#">Citizen Charter</a></li>
+                <li><a href="#">Udyami</a></li>
+                <li><a href="#">Downloads</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <div class="footer-last">
+
+        <div class="footer-content">
+
+            <div class="right-section">
+                <div>
+
+                </div>
+                <div></div>
+                <div class="app-links">
+                    <p>Install BOI BIZ PAY
+                        <img src="./images/play_store.svg" alt="Google Play" class="store-icon">
+                        <img src="./images/Appstore.svg" alt="Apple Store" class="store-icon">
+                    </p>
+                </div>
+                <div class="app-links">
+                    <p>Install BOI Mobile Banking
+                        <img src="./images/play_store.svg" alt="Google Play" class="store-icon">
+                        <img src="./images/Appstore.svg" alt="Apple Store" class="store-icon">
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="left-section">
+                <h5>© 2022 Bank of India. All rights reserved</h5>
+                <p>Site best viewed at 1366 * 768 resolution in Microsoft Edge 105+, Mozilla 105+ and Google Chrome 106+
+                    browser versions</p>
+            </div>
+
+            <div class="viewcount">
+                <div>
+                    <p>Visitor's Count <span class="visitor-count"> 4003655 </span></p>
+                </div>
+
+                <div>
+                    <p>Last Modified On Tuesday, 17-09-2024</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
